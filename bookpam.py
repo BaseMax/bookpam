@@ -1,7 +1,3 @@
-# Max Base
-# 2020-12-13
-# https://github.com/BaseMax/bookpam
-
 import re
 
 filename = 'book.md'
@@ -49,7 +45,8 @@ while i < countLines:
 	lines[i] = lines[i].replace('[page]', '<section>')
 	lines[i] = lines[i].replace('[/page]', '</section>')
 	lines[i] = re.sub(r'\{([^\}]+)\}', r'<img src="\1">', lines[i])
-	lines[i] = re.sub(r'\`([^\`]+)\`', r'<kbd>\1</kbd>', lines[i])
+	lines[i] = re.sub(r'\<\<([^\>]+)\>\>', r'<kbd class="function">\1</kbd>', lines[i])
+	lines[i] = re.sub(r'\`([^\`]+)\`', r'<kbd class="variable">\1</kbd>', lines[i])
 	# print("==>'"+ lines[i] +"'")
 	if lines[i] == "":
 		try:
