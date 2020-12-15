@@ -11,7 +11,8 @@ div.titlepage {
   page: blank;
 }
 body {
-    font-family: Vazir;
+    font-family: Vazir, Tahoma;
+    /*font-family: Tahoma;*/
     font-weight: normal;
 }
 @font-face {
@@ -79,8 +80,18 @@ code {
     direction: ltr;
     text-align: left;
     float: left;
+    background: #2c292d;
+    color: #a9dc76;
 }
-kbd {
+code span {
+    /*float: left;*/
+}
+kbd.variable {
+  border-radius: 2px;
+  padding: 2px;
+  border-bottom: 1px solid black;
+}
+kbd.function {
   border-radius: 2px;
   padding: 2px;
   border: 1px solid black;
@@ -89,4 +100,26 @@ body {
     font-size: 20px;
     width: 65%;
     margin: auto;
+    margin-bottom: 125px;
+}
+ul li.sub-1, ul li.sub-2, ul li.sub-3, ul li.sub-4, ul li.sub-5, ul li.sub-6 {
+    line-height: 35px;
+}
+ul li.sub-1 {
+    margin-right: calc(1*30px);
+}
+ul li.sub-2 {
+    margin-right: calc(2*30px);
+}
+ul li.sub-3 {
+    margin-right: calc(3*30px);
+}
+ul li.sub-4 {
+    margin-right: calc(4*30px);
+}
+ul li.sub-5 {
+    margin-right: calc(5*30px);
+}
+ul li.sub-6 {
+    margin-right: calc(6*30px);
 }
