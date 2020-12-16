@@ -1,6 +1,6 @@
 # bookpam
 
-**BookPam** is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. BookPam is available as free software.
+**BookPam** is a typesetting system; it includes features designed for the production of technical and scientific documentation. BookPam is available as free software.
 
 ## Features
 
