@@ -17,6 +17,14 @@ Watch web and html-based book at [here](https://basemax.github.io/bookpam/exampl
 
 Pure pam file format avaiable at [here](examples.pam)
 
+### Using bookpam
+
+Generate examples.html from examples.pam by running following command:
+
+```
+python bookpam.py
+```
+
 ### Commands
 
 This structure may be somewhat similar to markdown, but it is not.
