@@ -19,8 +19,11 @@ Pure pam file format avaiable at [here](examples.pam)
 
 ### Commands
 
-- [center] [/center]
-- [page] [/page]
+This structure may be somewhat similar to markdown, but it is not.
+It has more features that can help us in writing documentaries and books.
+
+- `[center] put here [/center]`
+- `[page] put here [/page]`
 - `#` `##` `###` `####` `#####` `######`
 - `\n`: go to new line
 - `<<FUNCTION_NAME>>`
