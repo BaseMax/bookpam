@@ -79,6 +79,8 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 - [page] [/page]
 - `#` `##` `###` `####` `#####` `######`
 - `\n`: go to new line
+- `<<FUNCTION_NAME>>`
+- ``` `IDENT_NAME` ```
 
 # TODO
 
