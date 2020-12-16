@@ -90,6 +90,9 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 - Ability to set own font for book (Optional)
 - Highlight multi language code syntaxes
 - Adding command parser for `bookpam.py` e.g: `--help`, `--version`, and other optional setting, etc.
+- Apply a custom style for top and bottom of every page using `@page{}` in print mode of browser.
+- Generate **PDF** file from **html** file.
+- Get own style.css file from user via command parser CLI
 
 ---------
 
