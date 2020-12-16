@@ -107,6 +107,15 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 - Generate **PDF** file from **html** file.
 - Get own style.css file from user via command parser CLI
 
+## Partnership and development
+
+Please send issue or pull request if you found a bug or problem.
+Feel free to discuss or send pull...
+
+# License
+
+**BookPam** is licensed under the [GNU General Public License](LICENSE).
+
 ---------
 
 # Max Base
