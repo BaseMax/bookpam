@@ -10,6 +10,68 @@
 - Highlight one own language syntaxe
 - Auto generate Functions list at bottom of book
 
+### Examples
+
+Watch web and html-based book at [here](https://basemax.github.io/bookpam/examples.html)
+
+Pure pam file format avaiable at [here](examples.pam)
+
+```
+[cover]
+
+[center]
+
+
+
+
+
+{logo.png}
+
+
+
+
+### GitHub Universe 2020 event
+
+# Discussion about programming and a new tool
+
+
+
+David Nolen
+ 
+Maintainer of Clojurescript 
+
+
+
+Jonan Scheffler
+
+Director of Developer Relations, New Relic 
+
+
+
+Spring 2020
+
+
+Max Base, GitHub Repository
+
+[/center]
+
+
+[/cover]
+
+
+[page]
+
+# Lorem Ipsum
+
+Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+
+....
+....
+....
+
+[/page]
+```
+
 ### Commands
 
 - [center] [/center]
