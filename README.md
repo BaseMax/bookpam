@@ -108,6 +108,7 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 - Apply a custom style for top and bottom of every page using `@page{}` in print mode of browser.
 - Generate **PDF** file from **html** file.
 - Get own style.css file from user via command parser CLI
+- Adding bookpam to `pip` python package management
 
 ## Partnership and development
 
