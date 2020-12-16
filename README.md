@@ -116,6 +116,8 @@ Feel free to discuss or send pull...
 
 **BookPam** is licensed under the [GNU General Public License](LICENSE).
 
+`logo.png` file is just a example file and it's not licensed under this project.
+
 ---------
 
 # Max Base
