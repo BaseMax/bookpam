@@ -136,5 +136,5 @@ layoutData = layoutData.replace('{{style}}', styleData)
 layoutData = layoutData.replace('{{script}}', scriptData)
 layoutData = layoutData.replace('{{content}}', output)
 
-outputFile = open('output.html', 'w')
+outputFile = open('examples.html', 'w')
 outputFile.write(layoutData)
