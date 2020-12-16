@@ -147,58 +147,7 @@ function colorise(data) {
 
 for(let i=0; i<codes.length; i++) {
   let data = codes[i].innerHTML
-
   data = colorise(data)
-
-  // let index = []
-  // while(true) {
-  //  let isMin = undefined
-  //  let isMinIndex = undefined
-  //  for(let j=0;j<formats.length;j++) {
-  //    let ind = data.indexOf(formats[j][0])
-  //    if(ind !== -1) {
-  //      if(isMin === undefined) {
-  //        isMin = ind
-  //        isMinIndex = j
-  //      }
-  //      else if(ind < isMin) {
-  //        isMin = ind
-  //        isMinIndex = j
-  //      }
-  //      index.push([ j, ind ])
-  //    }
-  //  }
-  //  console.log(index)
-  //  console.log(isMin)
-  //  // if(formats[isMinIndex] || formats[isMinIndex][0]) {
-  //  //  continue
-  //  // }
-  //  if(isMinIndex !== undefined) {
-  //    console.log(isMinIndex)
-  //    console.log(formats[isMinIndex])
-  //    console.log(formats[isMinIndex][0])
-  //    a = data.substr(0, isMin)
-  //    console.log(a)
-  //    b = data.substr(isMin + formats[isMinIndex][0].length)
-  //    console.log(b)
-
-  //    let pref_a = '<font color="'+ formats[isMinIndex][1] +'">'
-  //    let pref_b = '</font>'
-  //    data = a + pref_a + formats[isMinIndex][0] + pref_b + b
-  //    isMinIndex += pref_a.length + pref_b.length
-  //  }
-  //  else {
-  //    break;
-  //  }
-  // }
-
-  // data = data.replace('if', '<font color="green">if</font>')
-  // data = data.replace('while', '<font color="green">while')
-  // data = data.replace('for', '<font color="green">for</font>')
-  // data = data.replace('==', '<font color="orange">==</font>')
-  // data = data.replace(':=', '<font color="orange">:=</font>')
-  // data = data.replace(':=', '<font color="orange">:=</font>')
-  // // console.log(data)
   codes[i].innerHTML = data
-  // break
+  // just to test first code block tag: break
 }
