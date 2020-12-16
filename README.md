@@ -17,6 +17,17 @@ Watch web and html-based book at [here](https://basemax.github.io/bookpam/exampl
 
 Pure pam file format avaiable at [here](examples.pam)
 
+### Commands
+
+- [center] [/center]
+- [page] [/page]
+- `#` `##` `###` `####` `#####` `######`
+- `\n`: go to new line
+- `<<FUNCTION_NAME>>`
+- ``` `IDENT_NAME` ```
+
+### Example document
+
 ```
 [cover]
 
@@ -72,15 +83,6 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 
 [/page]
 ```
-
-### Commands
-
-- [center] [/center]
-- [page] [/page]
-- `#` `##` `###` `####` `#####` `######`
-- `\n`: go to new line
-- `<<FUNCTION_NAME>>`
-- ``` `IDENT_NAME` ```
 
 # TODO
 
