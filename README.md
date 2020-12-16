@@ -89,6 +89,7 @@ Lorem ipsum is placeholder text commonly used in the graphic, print, and publish
 - Support RTL and LTR (`html[dir=rtl]{}`, `html[dir=ltr]{}`)
 - Ability to set own font for book (Optional)
 - Highlight multi language code syntaxes
+- Adding command parser for `bookpam.py` e.g: `--help`, `--version`, and other optional setting, etc.
 
 ---------
 
