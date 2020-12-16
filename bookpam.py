@@ -4,7 +4,8 @@
 
 import re
 
-filename = 'test.md'
+NAME_BOOK = 'Book Name' # modify this title/name
+filename = 'examples.pam'
 inputFile = open(filename, 'r')
 data = inputFile.read().strip()
 
@@ -117,19 +118,20 @@ scriptData = scriptFile.read()
 
 # for
 # print(headers)
-fehrest = '<section class="fehrest"><h1>فهرست</h1><ul>'
+fehrest = '<section class="fehrest"><h1>Contents</h1><ul>'
 for header in headers:
 	fehrest += '<li class="sub-' + str(header[0]) + '">' + header[1] + '</li>'
 fehrest += "</ul></section>"
 
-functions_papers = '<section class="functions"><h1>توابع</h1><ul>'
+# if you want to write a programming language or somethings similar...
+functions_papers = '<section class="functions"><h1>List of functions</h1><ul>'
 for function in functions:
 	functions_papers += '<li>' + function + '</li>'
 functions_papers += "</ul></section>"
 
 output = cover + fehrest + output + functions_papers
 
-layoutData = layoutData.replace('{{title}}', 'گپ: از نظریه گروه تا برنامه نویسی')
+layoutData = layoutData.replace('{{title}}', NAME_BOOK)
 layoutData = layoutData.replace('{{style}}', styleData)
 layoutData = layoutData.replace('{{script}}', scriptData)
 layoutData = layoutData.replace('{{content}}', output)
