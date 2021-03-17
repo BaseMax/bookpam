@@ -1,10 +1,9 @@
 # Max Base
-# 2020-12-13, 2020-12-14, 2020-12-15
+# 2020-12-13, 2020-12-14, 2020-12-15, 2021-03-17
 # https://github.com/BaseMax/bookpam
 
 import re
 import sys
-
 
 class BookPam:
     def __init__(self, bookname, filename):
