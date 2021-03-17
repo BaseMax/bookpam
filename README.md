@@ -3,8 +3,6 @@
 BookPam is a typesetting system; it includes features designed for the production of technical documentation and book.
 BookPam is available as free software.
 
-> I need a Python developer to help me develop this project. If you are interested, open an issue.
-
 [![Demo typesetting system Book Pam](demo.jpg)](https://basemax.github.io/bookpam/examples.html)
 
 ## Features
